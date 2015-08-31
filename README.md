@@ -1,30 +1,26 @@
-# So Simple Theme
+# nieweidong.github.io
+###About me.
 
-Looking for a simple, responsive, theme for your Jekyll powered blog? Well look no further. Here be **So Simple Theme**, the followup to [**Minimal Mistakes**](http://mmistakes.github.io/minimal-mistakes/) -- by designer slash illustrator [Michael Rose](http://mademistakes.com).
+姓聂名微东，英文名Darren，自称东哥，已婚已育，base北京。 个人博客 可多关注，正在努力坚持更新... 毕业于陆军航空兵学院，获计算机科学与技术学士学位。
 
-[![Build Status](https://travis-ci.org/mmistakes/so-simple-theme.svg?branch=master)](https://travis-ci.org/mmistakes/so-simple-theme)
+热爱编程。目前从事JavaScript研发工作，关注并喜欢研究 HTML5，Python，PHP，MySQL，NoSQL等技术。
 
-## So Simple Theme is all about:
+业余爱好DOTA和各种球类运动。想去旅游，可又没有计划旅游，矛盾着，纠结着...希望能在有生之年环游世界。
 
-* Responsive templates. Looking good on mobile, tablet, and desktop.
-* Gracefully degrading in older browsers. Compatible with Internet Explorer 9+ and all modern browsers.
-* Minimal embellishments and subtle animations.
-* Optional large feature images for posts and pages.
-* [Custom 404 page](http://mmistakes.github.io/so-simple-theme/404.html) to get you started.
-* Basic [search capabilities](https://github.com/mathaywarduk/jekyll-search)
-* Support for Disqus Comments
+一名码农的自述
 
-![screenshot of So Simple Theme](http://mmistakes.github.io/so-simple-theme/images/so-simple-theme-preview.jpg)
+读军校是因年少时够调皮捣蛋，父母担心送去地方大学必会惹是生非之类，所以毅然决然的给我丢进军校深造，美名曰——“锻炼我”。实际，去了军校更没少打架斗殴；然后转眼四年毕业，懂得两点。
 
-See a [live version of So Simple](http://mmistakes.github.io/so-simple-theme/) hosted on GitHub.
+部队并不适合自身性格
 
----
+坐办公室折腾电脑不错
 
-## Getting Started
+。。。
 
-So Simple takes advantage of Sass and data files to make customizing easier. These features require Jekyll 2.x and will not work with older versions of Jekyll.
+于是乎卷起衣袖、扛着麻袋成为一名IT从业人员。
 
-To learn how to install and use this theme check out the [Setup Guide](http://mmistakes.github.io/so-simple-theme/theme-setup/) for more information.
+我是一名以“码农”自称的“前端”。骄傲这两个称呼，所以依旧在自己梦想的道路上坚持着。
 
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/mmistakes/so-simple-theme/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+技术杂，不精，互联网从业四年。领导曾对鄙人的评价是 “艺术青年”，个人觉得可改为“学艺不精的技术打杂青年”
 
+人生就像写代码，每一次成长就是一次更新，每一次收获就是一个迭代。所以...得写好代码，写好人生（就算现在写不出好的代码，可至少有一颗迭代的心），付出才可能有回报。
