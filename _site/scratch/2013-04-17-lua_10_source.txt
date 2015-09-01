@@ -290,7 +290,7 @@ Lua的代码风格很好，很值得学习，一些人已经在写一些源码�
     </div> <!-- /container -->
 
     <!--*********************************************************-->
-
+    <script type="text/javascript" src="http://tajs.qq.com/stats?sId=50684758" charset="UTF-8"></script>
 
   </body>
 

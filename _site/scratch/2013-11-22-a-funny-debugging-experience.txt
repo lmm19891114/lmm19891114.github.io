@@ -282,7 +282,7 @@ cat /proc/1234/status/
     </div> <!-- /container -->
 
     <!--*********************************************************-->
-
+    <script type="text/javascript" src="http://tajs.qq.com/stats?sId=50684758" charset="UTF-8"></script>
 
   </body>
 
