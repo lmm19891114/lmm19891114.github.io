@@ -288,6 +288,18 @@ Mac下的生态环境看起来更良好。有人会在Mac上认认真真开发�
           <a href="/2015/09/01/from-wordpress-to-jekyll.html" title="从虚拟主机到github，搭配Jekyll就是爽 " rel="bookmark">从虚拟主机到github，搭配Jekyll就是爽 </a>
         </li>
         
+        <li class="v-aside-li">
+          <a href="/2012/12/31/2012-summary-2013-plan.html" title="2012总结，2013规划 " rel="bookmark">2012总结，2013规划 </a>
+        </li>
+        
+        <li class="v-aside-li">
+          <a href="/2012/01/12/2011-summary-2012-plan.html" title="2011总结，2012规划 " rel="bookmark">2011总结，2012规划 </a>
+        </li>
+        
+        <li class="v-aside-li">
+          <a href="/2011/05/04/believe-yourself.html" title="相信自己 " rel="bookmark">相信自己 </a>
+        </li>
+        
       </ul>
     </div>
 
