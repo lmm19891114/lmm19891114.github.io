@@ -270,7 +270,7 @@ Certain function declarations cannot be overloaded:
       <ul>
         
         <li class="v-aside-li">
-          <a href="/2012/03/05/IE%E4%B8%8Bz-index%E7%9A%84%E5%90%84%E7%A7%8D%E5%9D%91.html" title="Ie下z Index的各种坑" rel="bookmark">Ie下z Index的各种坑</a>
+          <a href="/2015/09/01/from-wordpress-to-jekyll.html" title="从虚拟主机到github，搭配Jekyll就是爽 " rel="bookmark">从虚拟主机到github，搭配Jekyll就是爽 </a>
         </li>
         
       </ul>
