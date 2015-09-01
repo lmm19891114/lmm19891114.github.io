@@ -4,7 +4,7 @@
  <title>Jackmin's Blog</title>
  <link href="http://jackmin.cn/atom.xml" rel="self"/>
  <link href="http://jackmin.cn"/>
- <updated>2015-09-01T23:18:27+08:00</updated>
+ <updated>2015-09-02T00:15:32+08:00</updated>
  <id>http://jackmin.cn</id>
  <author>
    <name>Jackmin</name>
@@ -92,6 +92,118 @@ $ rvm use 2.2.0 --default
 
 &lt;p&gt;如果写技术博客，代码高亮少不了，本地需要安装Pygments，具体可以参考&lt;a href=&quot;http://havee.me/internet/2013-08/support-pygments-in-jekyll.html&quot;&gt;这里&lt;/a&gt;&lt;/p&gt;
 
+</content>
+ </entry>
+ 
+ <entry>
+   <title>2013过半——总结、计划、思30 </title>
+   <link href="http://jackmin.cn/2013/09/13/2013-summary.html"/>
+   <updated>2013-09-13T00:00:00+08:00</updated>
+   <id>http://jackmin.cn/2013/09/13/2013-summary</id>
+   <content type="html">
+&lt;p&gt;总是在思考，自己每天都做了些什么？每天的收获都有哪些？看标题这篇又是总结加计划的文章，翻看了下去年写的总结是2012-12-31 13:41，2013过半了，还有很多事情没有完成，必须得抓紧起来。&lt;/p&gt;
+
+&lt;p&gt;随着年龄的增加，越发越觉得自己的记忆力不太好，所以自己经常会用博客或者日志来记录起来，总结，计划也是一样。还有工作或者生活中遇到的问题用有道笔记来记录(这个工具确实非常好，可惜我手机安装后会闪退，希望有道团队能修复bug)。&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;——————分割线——————-分割线———————&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;第一、回顾2012；第二、2013上半年；第三、2013下半年；第四、思30岁的自己&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;section&quot;&gt;回顾2012&lt;/h2&gt;
+
+&lt;p&gt;古玛雅人预言2012是其文明的终点，真正到了这天的时候，确不是这样，不过2012也发生了太多的事情，公司股东矛盾激化，团队差点解散，最终在大boss的努力下，公司正常运营。&lt;/p&gt;
+
+&lt;h4 id=&quot;section-1&quot;&gt;工作&lt;/h4&gt;
+
+&lt;p&gt;后期业务模式转型婚纱礼服，英国，美国，法语，澳语，等网站开始筹建&lt;/p&gt;
+
+&lt;h4 id=&quot;section-2&quot;&gt;生活&lt;/h4&gt;
+
+&lt;p&gt;2012一直在追求新技术，每天都在寻找些好书，每天都会读一点。可能那时候来深圳比较有激情。缘分是个看不透、摸不着的东西，妙不可言…虽然异地 ，我会尽可能抽时间陪着她，2012年去的地方很多，杭州，上海，乌镇，宁波，我喜欢带着媳妇一起旅行。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;section-3&quot;&gt;2013上半年总结&lt;/h2&gt;
+
+&lt;p&gt;依旧每天在公司和家里穿梭着，而且每天总是穿梭着3,4个小时(上班来回有60公里，包含堵车时间)，60公里其实不远，慢的是车，公交车。公交车上的时间偶尔会拿出本书籍看看(偶尔而已，不经常，人懒，浮躁了)。&lt;/p&gt;
+
+&lt;h4 id=&quot;section-4&quot;&gt;工作&lt;/h4&gt;
+
+&lt;p&gt;2012上半年新增了两位PHP技术，上半年基本上忙着所有网站的升级吧，当然了还有PM多语言&lt;/p&gt;
+
+&lt;h4 id=&quot;section-5&quot;&gt;生活&lt;/h4&gt;
+
+&lt;p&gt;2013年是自己的本命年，身体大不如以前，咳嗽，感冒，上火，希望今后加强锻炼转运。房租装修，贷款可谓是几费周折呀，去了一家没批，又请假去了另外一家，另外一家成功申请，这意味着接下来的一年背负了贷款的包袱了，以前自己的标签是无房，无车，无贷款，现在的标签得改改，有贷款。2013年上半年，买了不少书籍，遗憾的是看的不多，3本厚厚的js+外加php。&lt;/p&gt;
+
+&lt;p&gt;上半年看完了&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;«换个心情过生活»  京东上购买的书籍，赠送的一本英文刊物&lt;/li&gt;
+  &lt;li&gt;«在你身边，用心设计»腾讯用户体验设计，讲解的不错，介绍了一些好的工具和团队建设&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;section-6&quot;&gt;2013下半年计划&lt;/h2&gt;
+
+&lt;p&gt;工作已经3年5个月了，来聚友也有2年多了。有人在创业，有人在创业路上，还有的继续在上班。有人成功，有人失败，有人开心，有人悲伤。而我依旧站在追求技术的道路上慢慢奋进，渴望收获每一滴。&lt;/p&gt;
+
+&lt;h4 id=&quot;section-7&quot;&gt;工作&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;技术积累，学习新技术 。linux，object，YUI，PHP，产品等等 Research最后必定会有产出:) &lt;/li&gt;
+  &lt;li&gt;多多交流工作内容，分享心得，接受别人批评和建议。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;section-8&quot;&gt;生活&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;下半年可能搬到公司附近住，这样可以睡懒觉 ，不用早起， 不用挤公交和地铁。 &lt;/li&gt;
+  &lt;li&gt;我希望有个书架，书架上放着自己爱看的书 &lt;/li&gt;
+  &lt;li&gt;换台新电脑，写码，设计，打游戏，运行流畅&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;下半年有几本必须要看的书： &lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;《暗时间》 平凡和优秀的距离，来自暗时间，已入手 &lt;/li&gt;
+  &lt;li&gt;《谁的青春不迷茫》  北漂小青年刘同十年逆袭人生，给都市中焦躁不安困惑迷茫的年轻人 ，已入手 &lt;/li&gt;
+  &lt;li&gt;《代码整理之道》   看看规范的代码到底是什么样？ &lt;/li&gt;
+  &lt;li&gt;重读php系列书籍，温故而知新&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;section-9&quot;&gt;思30&lt;/h2&gt;
+
+&lt;p&gt;“三十而立，四十而不惑，五十而知天命，六十而耳顺，七十而从心所欲”。 毕业4年有余，80后的我转眼到了奔三的年纪，“三十而立”就是摆在我眼前的话题， 作为祖宗的传统说法，源于《论语.为政》的成语，意为人到了30岁就应该去面对一切困难。   &lt;/p&gt;
+
+&lt;p&gt;百度百科中有一句比较认同的理解：&lt;span style=&quot;font-weight:bold;font-size;16px;&quot;&gt;“ 30岁人应该能依靠自己的本领独立承担自己应承受的责任，并已经确定自己的人生目标与发展方向 ”&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;上班一族的我30岁能最希望拥有东西是什么？答案是“孩子、房子、车子”，当然这三个词太枯燥现实了。 &lt;/p&gt;
+
+&lt;h3 id=&quot;section-10&quot;&gt;以下转的是别人30岁的理想&lt;/h3&gt;
+
+&lt;p style=&quot;font-size:18px;font-weight:bold;&quot;&gt;
+” 我憧憬三十岁时能给媳妇开一个花店。&lt;br /&gt;
+店里有舒服的沙发，我能窝在里面看书、写码甚至打游戏；&lt;br /&gt;
+有舒服的茶座，时不时约上两三个好友一起坐着喝喝茶、扯扯蛋；&lt;br /&gt;
+有一台勉强算高级的半自动咖啡机，亲手操作，调制出一杯美味的咖啡，是一种精神上的享受；&lt;br /&gt;
+有自己的小孩常在身边，一定不告诉他什么叫“hello world”；&lt;br /&gt;
+有一条柯基或者萨摩常伴左右；
+有…
+。。。
+。。。 “&lt;/p&gt;
+
+&lt;h2 id=&quot;section-11&quot;&gt;再见，我的上半年&lt;/h2&gt;
 </content>
  </entry>
  
