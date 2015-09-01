@@ -8,11 +8,9 @@
    <header>
     <meta charset="utf-8">
     
-    <title>有趣的调试 | Jackmin's Blog</title>
+    <title>从虚拟主机到github，搭配Jekyll就是爽  | Jackmin's Blog</title>
     
 
-    
-    <meta name="description" content="一次关于Linux信号方面的debug经历">
     
     <meta name="author" content="Jackmin">
 
@@ -168,40 +166,83 @@
 
 <div class="row post">
   <div class="span8">
-    <h1 class="title">有趣的调试</h1>
+    <h1 class="title">从虚拟主机到github，搭配Jekyll就是爽 </h1>
 
     
+<p>很早的时候就有了自己的博客了，那时候是用wordpress搭建的，买的一个香港的虚拟主机，很慢，每年都要续费之类的，后来写着写着就没坚持。</p>
 
-你知道的，debug的过程类似于侦探，其中的乐趣妙不可言。今天上午发现了一个有趣的bug，这是在开源软件[runlim](http://manpages.ubuntu.com/manpages/raring/man1/runlim.1.html)里面。我们这用这个还挺多的，我之前也做过一次[介绍](http://localhost:4000/2012/10/29/runlim.html)，这个工具就是用来检测程序使用时间和内存使用情况。我和同事花了一些时间在这个bug上，还是挺有趣的一次debug。
+<p>前几年经常在群里听到说他博客迁移到github上，我当时挺纳闷，那是怎么弄的，刚好我现在有个同事博客是用jekyll搭建的，再加上某天在网上搜到github page 可以免费托管，如是我看完了那篇wiki，马上就想自己也来重新把博客搞起来。就这样我的博客从wordpress 切换为jekyll，使用Github page 搭配jekyll有很多优点：</p>
 
-具体的情况是我们之前一直用这个工具，现在来了一台更强劲的24核的机器，正打算在这台机器上弄一套新的benchmark机制。然后发现当在新系统上重新编译这个runlim后，连runlim sleep 4这种运行方式都结束不了。runlim的运行机制很简单，开始后会fork一个子进程来运行execvp，父进程设置一个timer，来定时运行sampler进行cpu和内存的检测。我们通过进程查看器可以看到sleep的进程已经处于僵尸状态，但是runlim还是处于wait状态。wait函数是处于租塞的(waitpid和wait类似，但是waitpid提供了一个wait的非阻塞版)。这样看来是子进程结束了，但是父进程由于某种原因没有得到这个消息，而后又一直等待所以造成了程序无法退出的状况。
+<ul>
+  <li>轻量级的博客系统，配置简单</li>
+  <li>无需自己搭建服务器，主机免费</li>
+  <li>使用标记语言Markdown语法</li>
+  <li>Github方便管理控制</li>
+</ul>
 
+<p>下面介绍下如何搭建自己的博客</p>
 
-子进程在退出的时候会发送SIGCHLD信号，内核不会管你是否定义了SIGCHLD的处理函数，都会发送这个信号给父进程。这个信号默认是被忽略的(在Linux系统上如果显式的忽略这个SIGCHLD可以避免僵尸进程的产生，这样等于明确说明父进程将不会wait，子进程自己乖乖的死掉)。
+<h2 id="github">注册以及配置Github</h2>
 
-我们注册了一个SIGCHLD的处理函数:
+<h3 id="github-1">1、注册Github</h3>
+<p>首先打开<a href="http://github.com">Github</a>, 如果打不开，可能被墙了。填入注册信息， 用户名最好不要太长。注册完成后，你的github主页就是https://github.com/yourname。</p>
 
+<h3 id="github-2">2、绑定 Github</h3>
+<p>参考 <a href="https://help.github.com/articles/generating-ssh-keys/">生成 ssh，并与 Github 帐号绑定</a></p>
 
-结果是没有进入到处理函数里面，这说明没接受到SIGCHLD信号，很奇怪。
+<h3 id="git">3、设置Git</h3>
+<pre><code>git config --global user.name "Your Name Here"
+git config --global user.email "your_email@example.com"
+git config --global user.name    # 确保设置成功
+git config --global user.email
+</code></pre>
 
-然后我考虑到会不会是因为timer的原因，所以我们将sampler里面的实际内容注释掉。果然，这个bug是由于timer的原因造成的，这离真相近了一步。
+<h2 id="github-pages">使用GitHub Pages建立博客</h2>
 
+<p>与GitHub建立好链接之后，就可以方便的使用它提供的Pages服务，GitHub Pages分两种，一种是你的GitHub用户名建立的username.github.io这样的用户&amp;组织页（站），另一种是依附项目的pages。</p>
 
-那SIGCHLD到底去哪里了？其实我们可以通过/proc/pid文件夹下查看这个。比如进程号为1234，
+<p>创建一个新的项目，命名为 yourname.github.io, （这里千万要注意，yourname必须跟你Github的帐户是一致的）具体参考<a href="https://pages.github.com/">这里</a>。</p>
 
-cat /proc/1234/status/
+<p>项目创建OK后，在命令行新建个文件夹，然后进当前目录，git clone下来，开始搭建本地环境</p>
 
-里面的内容就是各种信号的状态。
+<p>以下介绍下mac下的安装流程</p>
 
-我们可以看到SIGCHLD(17)在被caught那一栏，这看起来像是在sampler里面接收了信号，但是并没有处理，所以这个信息就被丢失了。
+<p>首先安装rvm，rvm的安装可以参考<a href="https://rvm.io/rvm/install">这里</a>，或者敲入以下命令。</p>
 
-我们来尝试fix一下，一个办法是在注册timer的时候加上SIGCHLD的屏蔽。代码可以这样:
+<pre><code>$ \curl -sSL https://get.rvm.io | bash -s stable
+</code></pre>
 
+<p>然后安装ruby</p>
 
-其实sampler就是一段临界代码，这需要防止捕获不相关的代码。这样也可以在进入sampler之后处理，不过在退出的时候得再把SIGCHLD给解除屏蔽。
+<pre><code>$ rvm install 2.2.0
+$ rvm use 2.2.0 --default
+</code></pre>
 
+<p>然后安装jekyll</p>
 
-总的说来，这样的信号中断相关的代码调试比较困难，print大法是惯用的手段。
+<pre><code>$ gem install jekyll
+</code></pre>
+
+<p>启动本地环境</p>
+
+<pre><code>$ jekyll serve
+</code></pre>
+
+<p>这个时候，你就可以通过localhost:4000来访问了。</p>
+
+<h2 id="section">后续</h2>
+
+<h3 id="section-1">绑定自己的域名</h3>
+<p>在项目根目录新建CNAME文件，填入你申请好的域名</p>
+
+<h3 id="section-2">评论</h3>
+
+<p>评论插件为Disqus</p>
+
+<h3 id="section-3">代码语法高亮</h3>
+
+<p>如果写技术博客，代码高亮少不了，本地需要安装Pygments，具体可以参考<a href="http://havee.me/internet/2013-08/support-pygments-in-jekyll.html">这里</a></p>
+
 
 
     <p class="meta"> -- EOF -- </p>
@@ -213,7 +254,7 @@ cat /proc/1234/status/
     </ul>
 
     <div class="span8">
-      <p>声明: 本文采用 <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/" target="_blank" rel="nofollow" title="署名-非商业性使用-相同方式共享">BY-NC-SA</a> 协议进行授权. 转载请注明转自: <a href="/scratch/2013-11-22-a-funny-debugging-experience.txt" title="有趣的调试" rel="nofollow">有趣的调试</a></p>
+      <p>声明: 本文采用 <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/" target="_blank" rel="nofollow" title="署名-非商业性使用-相同方式共享">BY-NC-SA</a> 协议进行授权. 转载请注明转自: <a href="/2015/09/01/from-wordpress-to-jekyll.html" title="从虚拟主机到github，搭配Jekyll就是爽 " rel="nofollow">从虚拟主机到github，搭配Jekyll就是爽 </a></p>
     </div>
 
 
@@ -237,8 +278,26 @@ cat /proc/1234/status/
 
   <div class="span4 sidebar">
     
+    <h4 class="date">发布日期：<span>01 September 2015</span></h4>
+    
     <!-- <p class="meta">By <a href="/about.html" class="author" title="author">Yukang</a><g:plusone size="small"></g:plusone></p> -->
 
+    
+    <h4>标签</h4>
+    <ul class="tag_box">
+      
+      
+
+
+  
+     
+    	<li><a href="/tags.html#GIT-ref">GIT <span>1</span></a></li>
+    
+  
+
+
+
+    </ul>
     
 
     <div class="violet-aside-post">
