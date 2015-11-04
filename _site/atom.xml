@@ -4,7 +4,7 @@
  <title>Jackmin's Blog</title>
  <link href="http://jackmin.cn/atom.xml" rel="self"/>
  <link href="http://jackmin.cn"/>
- <updated>2015-09-02T00:15:32+08:00</updated>
+ <updated>2015-11-05T00:45:40+08:00</updated>
  <id>http://jackmin.cn</id>
  <author>
    <name>Jackmin</name>
@@ -13,12 +13,34 @@
 
  
  <entry>
+   <title>2015 北京，西塘国庆游</title>
+   <link href="http://jackmin.cn/2015/10/09/travel-to-beijing.html"/>
+   <updated>2015-10-09T00:00:00+08:00</updated>
+   <id>http://jackmin.cn/2015/10/09/travel-to-beijing</id>
+   <content type="html">
+&lt;p&gt;几年前就已经规划去北京走一趟了，各种原因总是把这个行程耽搁了，这次十一的假期比较长，刚好有个高中同学结婚，要回趟老家，于是就这个十一去北京走走，心里又想了下，7天不能一直在北京呆着，得安排几天去下一站，当时心里想着去西安，去内蒙古草原？去东北？最后定江南西塘了。&lt;/p&gt;
+
+&lt;h2 id=&quot;section&quot;&gt;国庆前自己设计线路。&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;/images/11/1.jpg&quot; alt=&quot;Path&quot; class=&quot;img-center&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;d1--930&quot;&gt;D1 深圳－安庆 9月30日&lt;/h3&gt;
+
+&lt;p&gt;回家参加高中班长婚礼，一夜的硬座火车，终于到了，安庆西站，现在是1号上午10点半，很熟悉，因为这里是我长大的地方，我背着小包，坐着一辆小车来到饭店，喵了下，这时候还没多少同学过来，只见到大帅早早已到。&lt;/p&gt;
+
+&lt;p&gt;过了一会儿，很多年没见面的老同学都已经到了，大家都聊的很HIGN，中午饭点时间，同学这桌喝了7瓶白酒，我也贡献接近半斤，边喝酒边聊到高中的往事，比如，高一宿舍男生放鞭炮，女生有天都不在的时候，所有的男生在黑板上写着喜欢谁的人的名字，当时我也写了，具体是谁不说了，还有快到高考的时候集体出去喝酒，下午回来后，被老班知道，男生一人一个巴掌，那时刻我脸部麻木了，不过这些都充满了回忆，我们是谁，高三 8班，最调皮的班级，学习又好的班级。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/11/2.jpg&quot; alt=&quot;Path&quot; class=&quot;img-center&quot; /&gt;&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
    <title>从虚拟主机到github，搭配Jekyll就是爽 </title>
    <link href="http://jackmin.cn/2015/09/01/from-wordpress-to-jekyll.html"/>
    <updated>2015-09-01T00:00:00+08:00</updated>
    <id>http://jackmin.cn/2015/09/01/from-wordpress-to-jekyll</id>
    <content type="html">
-&lt;p&gt;很早的时候就有了自己的博客了，那时候是用wordpress搭建的，买的一个香港的虚拟主机，很慢，每年都要续费之类的，后来写着写着就没坚持。&lt;/p&gt;
+&lt;p&gt;很早的时候就有自己的博客了，那时候是用wordpress搭建的，买的一个香港的虚拟主机，很慢，每年都要续费之类的，后来写着写着就没坚持。&lt;/p&gt;
 
 &lt;p&gt;前几年经常在群里听到说他博客迁移到github上，我当时挺纳闷，那是怎么弄的，刚好我现在有个同事博客是用jekyll搭建的，再加上某天在网上搜到github page 可以免费托管，如是我看完了那篇wiki，马上就想自己也来重新把博客搞起来。就这样我的博客从wordpress 切换为jekyll，使用Github page 搭配jekyll有很多优点：&lt;/p&gt;
 
