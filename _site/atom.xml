@@ -4,13 +4,40 @@
  <title>Jackmin's Blog</title>
  <link href="http://jackmin.cn/atom.xml" rel="self"/>
  <link href="http://jackmin.cn"/>
- <updated>2015-11-05T01:17:36+08:00</updated>
+ <updated>2016-06-23T22:07:43+08:00</updated>
  <id>http://jackmin.cn</id>
  <author>
    <name>Jackmin</name>
    <email>lmm198911@yeah.net</email>
  </author>
 
+ 
+ <entry>
+   <title>新手机版顺利上线</title>
+   <link href="http://jackmin.cn/2016/04/30/new-mobile.html"/>
+   <updated>2016-04-30T00:00:00+08:00</updated>
+   <id>http://jackmin.cn/2016/04/30/new-mobile</id>
+   <content type="html">
+&lt;p&gt;忙了将近一个月，手机版终于上线&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>《程序员的思维修炼:开发认知潜能的九堂课》读后感</title>
+   <link href="http://jackmin.cn/2016/01/06/read-the-program-book.html"/>
+   <updated>2016-01-06T00:00:00+08:00</updated>
+   <id>http://jackmin.cn/2016/01/06/read-the-program-book</id>
+   <content type="html">
+&lt;p&gt;家里的书柜上已经堆满了很多书籍，看这本书是因为需要培养自己的逻辑思维能力。看完后，觉得这本书讲的挺不错的，其中学习到了很多的东西。
+里面有很多不错的句子，这里记录下来。&lt;/p&gt;
+
+&lt;p&gt;———————–分割线———————–&lt;/p&gt;
+
+&lt;p&gt;“程序员需要不断地学习”&lt;/p&gt;
+
+</content>
+ </entry>
  
  <entry>
    <title>2015 北京，西塘国庆游</title>
@@ -20,10 +47,10 @@
    <content type="html">
 &lt;p&gt;几年前就已经规划去北京走一趟了，各种原因总是把这个行程耽搁了，这次十一的假期比较长，刚好有个高中同学结婚，要回趟老家，于是就这个十一去北京走走，心里又想了下，7天不能一直在北京呆着，得安排几天去下一站，当时心里想着去西安，去内蒙古草原？去东北？最后定江南西塘了。&lt;/p&gt;
 
-&lt;h2 id=&quot;section&quot;&gt;国庆前自己设计线路。&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&quot;/images/11/1.jpg&quot; alt=&quot;Path&quot; class=&quot;img-center&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;##国庆前自己设计线路。
+&lt;img src=&quot;/images/11/1.jpg&quot; alt=&quot;Path&quot; class=&quot;img-center&quot; /&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;d1--930&quot;&gt;D1 深圳－安庆 9月30日&lt;/h2&gt;
+&lt;p&gt;##D1 深圳－安庆 9月30日&lt;/p&gt;
 
 &lt;p&gt;回家参加高中班长婚礼，一夜的硬座火车，终于到了，安庆西站，现在是1号上午10点半，很熟悉，因为这里是我长大的地方，我背着小包，坐着一辆小车来到饭店，喵了下，这时候还没多少同学过来，只见到大帅早早已到。&lt;/p&gt;
 
@@ -41,7 +68,7 @@
 &lt;br /&gt;
 &lt;img src=&quot;/images/11/7.jpg&quot; alt=&quot;Path&quot; class=&quot;img-center&quot; /&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;d2-&quot;&gt;D2 安庆－合肥－北京&lt;/h2&gt;
+&lt;p&gt;##D2 安庆－合肥－北京&lt;/p&gt;
 
 &lt;p&gt;参加完婚礼，下午就赶火车去合肥转车，网上订了如家快捷酒店住上一晚，第二天堂哥在合肥顺便请我吃了中饭。然后下午火车到北京。合肥到北京4个小时，不过这次晚点1个小时，晚上6点才到北京，北京，我来了。&lt;/p&gt;
 
@@ -51,7 +78,7 @@
 
 &lt;p&gt;但这些好像都没有，没有深圳的现代化感，只觉得地铁里比较压抑，可能是人多的缘故，也或者是地铁比较旧的缘故！&lt;/p&gt;
 
-&lt;h3 id=&quot;section-1&quot;&gt;天安门&lt;/h3&gt;
+&lt;p&gt;###天安门&lt;/p&gt;
 
 &lt;p&gt;以前都是在电视上看到，不过这次现场看到，确实比较开心，这天天气很好，拍出来的照片都是国庆蓝&lt;/p&gt;
 
@@ -99,20 +126,19 @@
 
 &lt;h2 id=&quot;github&quot;&gt;注册以及配置Github&lt;/h2&gt;
 
-&lt;h3 id=&quot;github-1&quot;&gt;1、注册Github&lt;/h3&gt;
-&lt;p&gt;首先打开&lt;a href=&quot;http://github.com&quot;&gt;Github&lt;/a&gt;, 如果打不开，可能被墙了。填入注册信息， 用户名最好不要太长。注册完成后，你的github主页就是https://github.com/yourname。&lt;/p&gt;
+&lt;p&gt;###1、注册Github
+首先打开&lt;a href=&quot;http://github.com&quot;&gt;Github&lt;/a&gt;, 如果打不开，可能被墙了。填入注册信息， 用户名最好不要太长。注册完成后，你的github主页就是https://github.com/yourname。&lt;/p&gt;
 
-&lt;h3 id=&quot;github-2&quot;&gt;2、绑定 Github&lt;/h3&gt;
-&lt;p&gt;参考 &lt;a href=&quot;https://help.github.com/articles/generating-ssh-keys/&quot;&gt;生成 ssh，并与 Github 帐号绑定&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;###2、绑定 Github
+参考 &lt;a href=&quot;https://help.github.com/articles/generating-ssh-keys/&quot;&gt;生成 ssh，并与 Github 帐号绑定&lt;/a&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;git&quot;&gt;3、设置Git&lt;/h3&gt;
-&lt;pre&gt;&lt;code&gt;git config --global user.name &quot;Your Name Here&quot;
-git config --global user.email &quot;your_email@example.com&quot;
-git config --global user.name    # 确保设置成功
-git config --global user.email
-&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;###3、设置Git
+	git config –global user.name “Your Name Here”
+	git config –global user.email “your_email@example.com”
+	git config –global user.name    # 确保设置成功
+	git config –global user.email&lt;/p&gt;
 
-&lt;h2 id=&quot;github-pages&quot;&gt;使用GitHub Pages建立博客&lt;/h2&gt;
+&lt;p&gt;##使用GitHub Pages建立博客&lt;/p&gt;
 
 &lt;p&gt;与GitHub建立好链接之后，就可以方便的使用它提供的Pages服务，GitHub Pages分两种，一种是你的GitHub用户名建立的username.github.io这样的用户&amp;amp;组织页（站），另一种是依附项目的pages。&lt;/p&gt;
 
@@ -145,16 +171,16 @@ $ rvm use 2.2.0 --default
 
 &lt;p&gt;这个时候，你就可以通过localhost:4000来访问了。&lt;/p&gt;
 
-&lt;h2 id=&quot;section&quot;&gt;后续&lt;/h2&gt;
+&lt;p&gt;##后续&lt;/p&gt;
 
-&lt;h3 id=&quot;section-1&quot;&gt;绑定自己的域名&lt;/h3&gt;
-&lt;p&gt;在项目根目录新建CNAME文件，填入你申请好的域名&lt;/p&gt;
+&lt;p&gt;###绑定自己的域名
+在项目根目录新建CNAME文件，填入你申请好的域名&lt;/p&gt;
 
-&lt;h3 id=&quot;section-2&quot;&gt;评论&lt;/h3&gt;
+&lt;p&gt;###评论&lt;/p&gt;
 
 &lt;p&gt;评论插件为Disqus&lt;/p&gt;
 
-&lt;h3 id=&quot;section-3&quot;&gt;代码语法高亮&lt;/h3&gt;
+&lt;p&gt;###代码语法高亮&lt;/p&gt;
 
 &lt;p&gt;如果写技术博客，代码高亮少不了，本地需要安装Pygments，具体可以参考&lt;a href=&quot;http://havee.me/internet/2013-08/support-pygments-in-jekyll.html&quot;&gt;这里&lt;/a&gt;&lt;/p&gt;
 
@@ -177,15 +203,15 @@ $ rvm use 2.2.0 --default
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;section&quot;&gt;回顾2012&lt;/h2&gt;
+&lt;p&gt;##回顾2012&lt;/p&gt;
 
 &lt;p&gt;古玛雅人预言2012是其文明的终点，真正到了这天的时候，确不是这样，不过2012也发生了太多的事情，公司股东矛盾激化，团队差点解散，最终在大boss的努力下，公司正常运营。&lt;/p&gt;
 
-&lt;h4 id=&quot;section-1&quot;&gt;工作&lt;/h4&gt;
+&lt;p&gt;####工作&lt;/p&gt;
 
 &lt;p&gt;后期业务模式转型婚纱礼服，英国，美国，法语，澳语，等网站开始筹建&lt;/p&gt;
 
-&lt;h4 id=&quot;section-2&quot;&gt;生活&lt;/h4&gt;
+&lt;p&gt;####生活&lt;/p&gt;
 
 &lt;p&gt;2012一直在追求新技术，每天都在寻找些好书，每天都会读一点。可能那时候来深圳比较有激情。缘分是个看不透、摸不着的东西，妙不可言…虽然异地 ，我会尽可能抽时间陪着她，2012年去的地方很多，杭州，上海，乌镇，宁波，我喜欢带着媳妇一起旅行。&lt;/p&gt;
 
@@ -193,15 +219,15 @@ $ rvm use 2.2.0 --default
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;section-3&quot;&gt;2013上半年总结&lt;/h2&gt;
+&lt;p&gt;##2013上半年总结&lt;/p&gt;
 
 &lt;p&gt;依旧每天在公司和家里穿梭着，而且每天总是穿梭着3,4个小时(上班来回有60公里，包含堵车时间)，60公里其实不远，慢的是车，公交车。公交车上的时间偶尔会拿出本书籍看看(偶尔而已，不经常，人懒，浮躁了)。&lt;/p&gt;
 
-&lt;h4 id=&quot;section-4&quot;&gt;工作&lt;/h4&gt;
+&lt;p&gt;####工作&lt;/p&gt;
 
 &lt;p&gt;2012上半年新增了两位PHP技术，上半年基本上忙着所有网站的升级吧，当然了还有PM多语言&lt;/p&gt;
 
-&lt;h4 id=&quot;section-5&quot;&gt;生活&lt;/h4&gt;
+&lt;p&gt;####生活&lt;/p&gt;
 
 &lt;p&gt;2013年是自己的本命年，身体大不如以前，咳嗽，感冒，上火，希望今后加强锻炼转运。房租装修，贷款可谓是几费周折呀，去了一家没批，又请假去了另外一家，另外一家成功申请，这意味着接下来的一年背负了贷款的包袱了，以前自己的标签是无房，无车，无贷款，现在的标签得改改，有贷款。2013年上半年，买了不少书籍，遗憾的是看的不多，3本厚厚的js+外加php。&lt;/p&gt;
 
@@ -216,31 +242,31 @@ $ rvm use 2.2.0 --default
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;section-6&quot;&gt;2013下半年计划&lt;/h2&gt;
+&lt;p&gt;##2013下半年计划&lt;/p&gt;
 
 &lt;p&gt;工作已经3年5个月了，来聚友也有2年多了。有人在创业，有人在创业路上，还有的继续在上班。有人成功，有人失败，有人开心，有人悲伤。而我依旧站在追求技术的道路上慢慢奋进，渴望收获每一滴。&lt;/p&gt;
 
-&lt;h4 id=&quot;section-7&quot;&gt;工作&lt;/h4&gt;
+&lt;p&gt;####工作&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;技术积累，学习新技术 。linux，object，YUI，PHP，产品等等 Research最后必定会有产出:) &lt;/li&gt;
+  &lt;li&gt;技术积累，学习新技术 。linux，object，YUI，PHP，产品等等 Research最后必定会有产出:)&lt;/li&gt;
   &lt;li&gt;多多交流工作内容，分享心得，接受别人批评和建议。&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h4 id=&quot;section-8&quot;&gt;生活&lt;/h4&gt;
+&lt;p&gt;####生活&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;下半年可能搬到公司附近住，这样可以睡懒觉 ，不用早起， 不用挤公交和地铁。 &lt;/li&gt;
-  &lt;li&gt;我希望有个书架，书架上放着自己爱看的书 &lt;/li&gt;
+  &lt;li&gt;下半年可能搬到公司附近住，这样可以睡懒觉 ，不用早起， 不用挤公交和地铁。&lt;/li&gt;
+  &lt;li&gt;我希望有个书架，书架上放着自己爱看的书&lt;/li&gt;
   &lt;li&gt;换台新电脑，写码，设计，打游戏，运行流畅&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;下半年有几本必须要看的书： &lt;/p&gt;
+&lt;p&gt;下半年有几本必须要看的书：&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;《暗时间》 平凡和优秀的距离，来自暗时间，已入手 &lt;/li&gt;
-  &lt;li&gt;《谁的青春不迷茫》  北漂小青年刘同十年逆袭人生，给都市中焦躁不安困惑迷茫的年轻人 ，已入手 &lt;/li&gt;
-  &lt;li&gt;《代码整理之道》   看看规范的代码到底是什么样？ &lt;/li&gt;
+  &lt;li&gt;《暗时间》 平凡和优秀的距离，来自暗时间，已入手&lt;/li&gt;
+  &lt;li&gt;《谁的青春不迷茫》  北漂小青年刘同十年逆袭人生，给都市中焦躁不安困惑迷茫的年轻人 ，已入手&lt;/li&gt;
+  &lt;li&gt;《代码整理之道》   看看规范的代码到底是什么样？&lt;/li&gt;
   &lt;li&gt;重读php系列书籍，温故而知新&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -248,15 +274,15 @@ $ rvm use 2.2.0 --default
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;section-9&quot;&gt;思30&lt;/h2&gt;
+&lt;p&gt;##思30&lt;/p&gt;
 
-&lt;p&gt;“三十而立，四十而不惑，五十而知天命，六十而耳顺，七十而从心所欲”。 毕业4年有余，80后的我转眼到了奔三的年纪，“三十而立”就是摆在我眼前的话题， 作为祖宗的传统说法，源于《论语.为政》的成语，意为人到了30岁就应该去面对一切困难。   &lt;/p&gt;
+&lt;p&gt;“三十而立，四十而不惑，五十而知天命，六十而耳顺，七十而从心所欲”。 毕业4年有余，80后的我转眼到了奔三的年纪，“三十而立”就是摆在我眼前的话题， 作为祖宗的传统说法，源于《论语.为政》的成语，意为人到了30岁就应该去面对一切困难。&lt;/p&gt;
 
 &lt;p&gt;百度百科中有一句比较认同的理解：&lt;span style=&quot;font-weight:bold;font-size;16px;&quot;&gt;“ 30岁人应该能依靠自己的本领独立承担自己应承受的责任，并已经确定自己的人生目标与发展方向 ”&lt;/span&gt;&lt;/p&gt;
 
-&lt;p&gt;上班一族的我30岁能最希望拥有东西是什么？答案是“孩子、房子、车子”，当然这三个词太枯燥现实了。 &lt;/p&gt;
+&lt;p&gt;上班一族的我30岁能最希望拥有东西是什么？答案是“孩子、房子、车子”，当然这三个词太枯燥现实了。&lt;/p&gt;
 
-&lt;h3 id=&quot;section-10&quot;&gt;以下转的是别人30岁的理想&lt;/h3&gt;
+&lt;p&gt;###以下转的是别人30岁的理想&lt;/p&gt;
 
 &lt;p style=&quot;font-size:18px;font-weight:bold;&quot;&gt;
 ” 我憧憬三十岁时能给媳妇开一个花店。&lt;br /&gt;
@@ -269,7 +295,7 @@ $ rvm use 2.2.0 --default
 。。。
 。。。 “&lt;/p&gt;
 
-&lt;h2 id=&quot;section-11&quot;&gt;再见，我的上半年&lt;/h2&gt;
+&lt;p&gt;##再见，我的上半年&lt;/p&gt;
 </content>
  </entry>
  
@@ -297,26 +323,26 @@ $ rvm use 2.2.0 --default
 
 &lt;p&gt;这就是我的2012，2013也需要做一个简单的规划了。&lt;/p&gt;
 
-&lt;h4 id=&quot;section&quot;&gt;1、个人学习&lt;/h4&gt;
+&lt;p&gt;####1、个人学习&lt;/p&gt;
 
 &lt;p&gt;日语加强单词记忆，语法记忆，英语丢一边，php继续项目巩固，重点加强JavaScript脚本和linux的学习，同时涉及产品经理的学习，以及java的学习。&lt;/p&gt;
 
-&lt;h4 id=&quot;section-1&quot;&gt;2、公司项目&lt;/h4&gt;
+&lt;p&gt;####2、公司项目&lt;/p&gt;
 
 &lt;p&gt;西班牙语网站建设，后期项目未知，boss决定&lt;/p&gt;
 
-&lt;h4 id=&quot;section-2&quot;&gt;3、经济&lt;/h4&gt;
+&lt;p&gt;####3、经济&lt;/p&gt;
 
 &lt;p&gt;拿出500购买计算机书籍，购置一台高性能笔记本，力争2013薪水加加，争取攒一部分钱。&lt;/p&gt;
 
-&lt;h4 id=&quot;section-3&quot;&gt;4、生活&lt;/h4&gt;
+&lt;p&gt;####4、生活&lt;/p&gt;
 
 &lt;p&gt;2013年旅行计划：杭州，北京，国外；身高无指望，增肥10斤。&lt;/p&gt;
 
-&lt;h4 id=&quot;section-4&quot;&gt;5、祝福&lt;/h4&gt;
+&lt;p&gt;####5、祝福&lt;/p&gt;
 
 &lt;p&gt;祝福同学，祝福朋友，祝福同事，蛇年大吉，努力实现心中的梦想！
-祝福家人，身体健健康康！ &lt;/p&gt;
+祝福家人，身体健健康康！&lt;/p&gt;
 </content>
  </entry>
  
@@ -333,29 +359,29 @@ $ rvm use 2.2.0 --default
 &lt;p&gt;工作上，回顾2011，2011完成了仿品站项目，另外完成persun服装站项目，回想这些真的很开心。  &lt;br /&gt;
 生活上，回顾2011，每天下班都和家人一起吃饭，真的很开心。周末的时候，我把这个时间全部投入到与朋友一起游玩，一起逛街中，当然了，更喜欢去外地旅行，放松自己的心情，我想生活就应该如此，在此，也希望认识的朋友爱旅行，爱生活。&lt;/p&gt;
 
-&lt;p&gt;2011最开心的事情，恋爱，加薪，年终奖 &lt;/p&gt;
+&lt;p&gt;2011最开心的事情，恋爱，加薪，年终奖&lt;/p&gt;
 
 &lt;hr /&gt;
 
 &lt;p&gt;好了，2011就先说到这，对2012，自己也应该有一个简单的规划！&lt;/p&gt;
 
-&lt;h4 id=&quot;section&quot;&gt;1、个人学习&lt;/h4&gt;
+&lt;p&gt;####1、个人学习&lt;/p&gt;
 
 &lt;p&gt;PHP需要巩固，另外，新的知识需要学习，2012投入大部分时间学习ajax技术以及linux等运维知识，学习PHP新的框架，另外英语别忘了，需要抽抽时间记记单词。&lt;/p&gt;
 
-&lt;h4 id=&quot;section-1&quot;&gt;2、公司项目&lt;/h4&gt;
+&lt;p&gt;####2、公司项目&lt;/p&gt;
 
 &lt;p&gt;2012年公司开展新的项目，2012年我需要完成电子商务综合站的建设，其他项目有待开发，当然，工作压力也比较大了，具体的还是用PHP语言开发。&lt;/p&gt;
 
-&lt;h4 id=&quot;section-2&quot;&gt;3、经济&lt;/h4&gt;
+&lt;p&gt;####3、经济&lt;/p&gt;
 
 &lt;p&gt;2012计划换台笔记本，拿出300购买书籍，当然要控制花销，不做无谓的消费，争取攒一部分钱。&lt;/p&gt;
 
-&lt;h4 id=&quot;section-3&quot;&gt;4、生活&lt;/h4&gt;
+&lt;p&gt;####4、生活&lt;/p&gt;
 
 &lt;p&gt;2012旅行计划：北京，办好港澳通行证后，去趟香港。&lt;/p&gt;
 
-&lt;h4 id=&quot;section-4&quot;&gt;5、祝福&lt;/h4&gt;
+&lt;p&gt;####5、祝福&lt;/p&gt;
 
 &lt;p&gt;祝福工作的朋友事业顺利，祝福学习的朋友学习进步，努力实现自己心中的理想，同时也祝福自己的宝贝，每天开开心心，2012加油！&lt;/p&gt;
 </content>
