@@ -1,9 +1,9 @@
 
 <!DOCTYPE html>
 <html>
-   <link rel="stylesheet" href="/assets/themes/twitter/bootstrap/css/bootstrap.min.css" />
-   <link rel="stylesheet" href="/assets/themes/twitter/css/style.css" />
-   <link rel="stylesheet" href="/assets/themes/twitter/css/pygments.css" />
+   <link rel="stylesheet" href="/assets/themes//twitter/bootstrap/css/bootstrap.min.css" />
+   <link rel="stylesheet" href="/assets/themes//twitter/css/style.css" />
+   <link rel="stylesheet" href="/assets/themes//twitter/css/pygments.css" />
 
    <header>
     <meta charset="utf-8">
@@ -61,7 +61,7 @@
     
       
       	
-      	<li><a href="/archive.html">归档</a></li>
+      	<li><a href="/archive">归档</a></li>
       	
       
     
@@ -81,7 +81,7 @@
     
       
       	
-      	<li><a href="/tags.html">标签</a></li>
+      	<li><a href="/tags">标签</a></li>
       	
       
     
@@ -121,7 +121,7 @@
     
       
       	
-      	<li><a href="/about.html">关于</a></li>
+      	<li><a href="/about">关于</a></li>
       	
       
     
@@ -186,25 +186,25 @@ Certain function declarations cannot be overloaded:
 因为如果这样，当通过一个对象调用函数的时候会引起歧义。只是返回值不同其他相同也是非法的重载。
 
 同样，静态成员函数还有其他限制，比如不能定义为虚函数。
-<div class="highlight"><pre><code class="language-cpp" data-lang="cpp"><span class="cp">#include&lt;iostream&gt;</span>
+<figure class="highlight"><pre><code class="language-cpp" data-lang="cpp"><span class="cp">#include&lt;iostream&gt;</span>
 <span class="k">using</span> <span class="k">namespace</span> <span class="n">std</span><span class="p">;</span>
 
 <span class="k">class</span> <span class="nc">Test</span> <span class="p">{</span>
 <span class="k">public</span><span class="o">:</span>
 <span class="c1">// Error: Virtual member functions cannot be static</span>
 <span class="k">virtual</span> <span class="k">static</span> <span class="kt">void</span> <span class="n">fun</span><span class="p">()</span>  <span class="p">{</span> <span class="p">}</span>
-<span class="p">};</span></code></pre></div>
+<span class="p">};</span></code></pre></figure>
 这很好理解，静态成员函数是相对于类的，而普通成员函数是相对于对象的。本质区别是静态成员函数不能访问this，继而不能通过vptr访问到vtable。另外C++里面的this是不能作为左值来是用的，即使是在成员函数里面。
 
 静态成员函数不能声明为const或者volatile，const意为函数不会修改一个『对象』的内容，这对static函数来说没意义。
 
 你不能声明两个参数类型相同的static和非static函数，比如这样:
-<div class="highlight"><pre><code class="language-cpp" data-lang="cpp"><span class="k">class</span> <span class="nc">Foo</span> <span class="p">{</span>
+<figure class="highlight"><pre><code class="language-cpp" data-lang="cpp"><span class="k">class</span> <span class="nc">Foo</span> <span class="p">{</span>
 <span class="k">public</span><span class="o">:</span>
 	<span class="kt">void</span> <span class="n">print</span><span class="p">()</span> <span class="p">{</span> <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&quot;non static&quot;</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span> <span class="p">}</span>
 	<span class="k">static</span> <span class="kt">void</span> <span class="n">print</span><span class="p">()</span> <span class="p">{</span> <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&quot;static&quot;</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span> <span class="p">}</span>
 
-<span class="p">};</span></code></pre></div>
+<span class="p">};</span></code></pre></figure>
 
 
 参考: [c-overload-static-function-with-non-static-function](http://stackoverflow.com/questions/5365689/c-overload-static-function-with-non-static-function)
@@ -268,6 +268,14 @@ Certain function declarations cannot be overloaded:
     <div class="violet-aside-post">
       <h4 class="v-section-tit">最近</h4>
       <ul>
+        
+        <li class="v-aside-li">
+          <a href="/2016/04/30/new-mobile.html" title="新手机版顺利上线" rel="bookmark">新手机版顺利上线</a>
+        </li>
+        
+        <li class="v-aside-li">
+          <a href="/2016/01/06/read-the-program-book.html" title="《程序员的思维修炼:开发认知潜能的九堂课》读后感" rel="bookmark">《程序员的思维修炼:开发认知潜能的九堂课》读后感</a>
+        </li>
         
         <li class="v-aside-li">
           <a href="/2015/10/09/travel-to-beijing.html" title="2015 北京，西塘国庆游" rel="bookmark">2015 北京，西塘国庆游</a>
