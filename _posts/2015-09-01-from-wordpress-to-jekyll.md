@@ -23,20 +23,20 @@ tags: [GIT]
 
 ## 注册以及配置Github
 
-###1、注册Github
+### 1、注册Github
 首先打开[Github](http://github.com), 如果打不开，可能被墙了。填入注册信息， 用户名最好不要太长。注册完成后，你的github主页就是https://github.com/yourname。
 
-###2、绑定 Github
+### 2、绑定 Github
 参考 [生成 ssh，并与 Github 帐号绑定](https://help.github.com/articles/generating-ssh-keys/)
 
-###3、设置Git
+### 3、设置Git
 	git config --global user.name "Your Name Here"
 	git config --global user.email "your_email@example.com"
 	git config --global user.name    # 确保设置成功
 	git config --global user.email
 
 
-##使用GitHub Pages建立博客
+## 使用GitHub Pages建立博客
 
 与GitHub建立好链接之后，就可以方便的使用它提供的Pages服务，GitHub Pages分两种，一种是你的GitHub用户名建立的username.github.io这样的用户&组织页（站），另一种是依附项目的pages。
 
@@ -70,16 +70,16 @@ tags: [GIT]
 
 
 
-##后续
+## 后续
 
-###绑定自己的域名
+### 绑定自己的域名
 在项目根目录新建CNAME文件，填入你申请好的域名
 
-###评论
+### 评论
 
 评论插件为Disqus
 
-###代码语法高亮
+### 代码语法高亮
 
 如果写技术博客，代码高亮少不了，本地需要安装Pygments，具体可以参考[这里](http://havee.me/internet/2013-08/support-pygments-in-jekyll.html)
 
