@@ -4,7 +4,7 @@
  <title>Jackmin's Blog</title>
  <link href="http://jackmin.cn/atom.xml" rel="self"/>
  <link href="http://jackmin.cn"/>
- <updated>2016-06-23T22:07:43+08:00</updated>
+ <updated>2016-06-23T22:53:11+08:00</updated>
  <id>http://jackmin.cn</id>
  <author>
    <name>Jackmin</name>
@@ -34,8 +34,34 @@
 
 &lt;p&gt;———————–分割线———————–&lt;/p&gt;
 
-&lt;p&gt;“程序员需要不断地学习”&lt;/p&gt;
+&lt;p&gt;“程序员需要不断地学习—-不仅仅是学习新技术，还包括应用的问题域、用户社区的奇思妙想，同事的古怪习惯、行业的八卦新闻和项目演进的重要特征，我们必须学习学习再学习，持续不断的学习，然后把学习成果应用到解决日常遇到的一切新旧问题上。”&lt;/p&gt;
 
+&lt;p&gt;这本书里介绍了从认识大脑，到调试大脑，讲述了大脑的一些思考，其中认识大脑的过程中，又介绍了L型和R型，R型不可预测，需要时刻为此准备。
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;section&quot;&gt;提出了一个24×7记录想法&lt;/h2&gt;
+
+&lt;h3 id=&quot;section-1&quot;&gt;笔和记事本&lt;/h3&gt;
+
+&lt;h3 id=&quot;section-2&quot;&gt;索引卡片&lt;/h3&gt;
+
+&lt;h3 id=&quot;pda&quot;&gt;PDA&lt;/h3&gt;
+
+&lt;h3 id=&quot;section-3&quot;&gt;语音备忘录&lt;/h3&gt;
+
+&lt;h3 id=&quot;pocket-mod&quot;&gt;Pocket Mod&lt;/h3&gt;
+
+&lt;h3 id=&quot;section-4&quot;&gt;记事本&lt;/h3&gt;
+
+&lt;p&gt;还讲到了我们大脑也在竞争—-争夺脑皮层地盘。你持续使用和实践的技能会逐渐占据统治地位，这样一来，大脑里就会有更多的部位被关联起来。&lt;/p&gt;
+
+&lt;p&gt;想做一名更好的程序员，那就多编码，深思熟虑，专注实践。想学习一门外语，那就投入进去，不停的说，用它思考。大脑会很快意识到并调整自己为这种新用途提供更多方便。&lt;/p&gt;
+
+&lt;p&gt;最后讲到的是主动学习和积累经验，同时要控制注意力，超越专家。&lt;/p&gt;
+
+&lt;p&gt;作为一名程序员，需要主动学习，瞄准SMART目标，目标是一件很好的事情，你可能会有许多目标：减肥，找到一个更好的工作，搬进一个更大的房子，写本小说，学习演奏电吉他，编写一个超级Rails应用程序等等。&lt;/p&gt;
+
+&lt;p&gt;总之，读完这本书，能够提供最好的方法，帮助你成为专家家学习者，提供你的技能，指导如何提高工作效率。&lt;/p&gt;
 </content>
  </entry>
  
@@ -126,19 +152,20 @@
 
 &lt;h2 id=&quot;github&quot;&gt;注册以及配置Github&lt;/h2&gt;
 
-&lt;p&gt;###1、注册Github
-首先打开&lt;a href=&quot;http://github.com&quot;&gt;Github&lt;/a&gt;, 如果打不开，可能被墙了。填入注册信息， 用户名最好不要太长。注册完成后，你的github主页就是https://github.com/yourname。&lt;/p&gt;
+&lt;h3 id=&quot;github-1&quot;&gt;1、注册Github&lt;/h3&gt;
+&lt;p&gt;首先打开&lt;a href=&quot;http://github.com&quot;&gt;Github&lt;/a&gt;, 如果打不开，可能被墙了。填入注册信息， 用户名最好不要太长。注册完成后，你的github主页就是https://github.com/yourname。&lt;/p&gt;
 
-&lt;p&gt;###2、绑定 Github
-参考 &lt;a href=&quot;https://help.github.com/articles/generating-ssh-keys/&quot;&gt;生成 ssh，并与 Github 帐号绑定&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;github-2&quot;&gt;2、绑定 Github&lt;/h3&gt;
+&lt;p&gt;参考 &lt;a href=&quot;https://help.github.com/articles/generating-ssh-keys/&quot;&gt;生成 ssh，并与 Github 帐号绑定&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;###3、设置Git
-	git config –global user.name “Your Name Here”
-	git config –global user.email “your_email@example.com”
-	git config –global user.name    # 确保设置成功
-	git config –global user.email&lt;/p&gt;
+&lt;h3 id=&quot;git&quot;&gt;3、设置Git&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;git config --global user.name &quot;Your Name Here&quot;
+git config --global user.email &quot;your_email@example.com&quot;
+git config --global user.name    # 确保设置成功
+git config --global user.email
+&lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;##使用GitHub Pages建立博客&lt;/p&gt;
+&lt;h2 id=&quot;github-pages&quot;&gt;使用GitHub Pages建立博客&lt;/h2&gt;
 
 &lt;p&gt;与GitHub建立好链接之后，就可以方便的使用它提供的Pages服务，GitHub Pages分两种，一种是你的GitHub用户名建立的username.github.io这样的用户&amp;amp;组织页（站），另一种是依附项目的pages。&lt;/p&gt;
 
@@ -171,16 +198,16 @@ $ rvm use 2.2.0 --default
 
 &lt;p&gt;这个时候，你就可以通过localhost:4000来访问了。&lt;/p&gt;
 
-&lt;p&gt;##后续&lt;/p&gt;
+&lt;h2 id=&quot;section&quot;&gt;后续&lt;/h2&gt;
 
-&lt;p&gt;###绑定自己的域名
-在项目根目录新建CNAME文件，填入你申请好的域名&lt;/p&gt;
+&lt;h3 id=&quot;section-1&quot;&gt;绑定自己的域名&lt;/h3&gt;
+&lt;p&gt;在项目根目录新建CNAME文件，填入你申请好的域名&lt;/p&gt;
 
-&lt;p&gt;###评论&lt;/p&gt;
+&lt;h3 id=&quot;section-2&quot;&gt;评论&lt;/h3&gt;
 
 &lt;p&gt;评论插件为Disqus&lt;/p&gt;
 
-&lt;p&gt;###代码语法高亮&lt;/p&gt;
+&lt;h3 id=&quot;section-3&quot;&gt;代码语法高亮&lt;/h3&gt;
 
 &lt;p&gt;如果写技术博客，代码高亮少不了，本地需要安装Pygments，具体可以参考&lt;a href=&quot;http://havee.me/internet/2013-08/support-pygments-in-jekyll.html&quot;&gt;这里&lt;/a&gt;&lt;/p&gt;
 
